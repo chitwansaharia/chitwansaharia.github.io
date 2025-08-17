@@ -12,10 +12,10 @@
   </script>
 
   <title>Chitwan Saharia</title>
-  
+
   <meta name="author" content="Chitwan Saharia">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/seal_icon.png">
 </head>
@@ -30,9 +30,9 @@
               <p style="text-align:center">
                 <name>Chitwan Saharia</name>
               </p>
-              <p>I am a Research Engineer at <a href="https://research.google/teams/brain/"> Google Brain, Toronto. </a></p>
+              <p>I am co-founder and researcher at <a href="https://ideogram.ai">Ideogram AI </a>.</p>
               <p>
-                I finished my undergrad from Indian Institute of Technology (IIT), Bombay with a major in <a href="https://www.cse.iitb.ac.in/"> Computer Science and Engineering </a>. I was advised by <a href="https://www.cse.iitb.ac.in/~pjyothi/"> Prof. Preethi Jyothi </a> for my Bachelor Thesis Project. I previously interned at <a href="https://mila.quebec/en/"> Mila, Montreal </a> under the supervision of <a href="https://yoshuabengio.org/"> Prof. Yoshua Bengio </a>, and <a href="https://rizar.github.io"> Dzmitry Bahdanau </a>. 
+                I was previously Senior Research Scientist at <a href="https://research.google.com/teams/brain/">Google Brain, Toronto</a>. Before that, I finished my undergrad from Indian Institute of Technology (IIT), Bombay with a major in <a href="https://www.cse.iitb.ac.in/"> Computer Science and Engineering </a>. I was advised by <a href="https://www.cse.iitb.ac.in/~pjyothi/"> Prof. Preethi Jyothi </a> for my Bachelor Thesis Project. I previously interned at <a href="https://mila.quebec/en/"> Mila, Montreal </a> under the supervision of <a href="https://yoshuabengio.org/"> Prof. Yoshua Bengio </a>, and <a href="https://rizar.github.io"> Dzmitry Bahdanau </a>.
               </p>
               <p style="text-align:center">
                 <a href="mailto:chitwaniit@gmail.com">Email</a> &nbsp/&nbsp
@@ -51,12 +51,53 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                My research interest revolves around Machine Learning and its applications. At present, I am working on diffusion based image generative models with the amazing colleagues at Brain. I have also been actively working non-autoregressive generative models for text. When I was an undergrad, I interned at MILA and worked on analysing sample complexity of learning algorithms for grounded language learning.
+                I am currently working on high-resolution controllable text to image generation at <a href="https://ideogram.ai">Ideogram AI</a>. My time is divided among different components of full stack model research and development including pre-training, post-training, building large scale data processing pipelines
+                and model serving to millions of users. <br> <br>
+
+                Previously at Google, I helped develop one of the first large scale text to image and video diffusion models  [<a href="https://imagen.research.google/">Imagen</a>, <a href="https://imagen.research.google/video">Imagen Video</a>, <a href="https://imagen.research.google/editor">Imagen Editor</a>],
+                one of the first image to image diffusion models [<a href="https://iterative-refinement.github.io/">SR3</a>, <a href="https://iterative-refinement.github.io/palette">Palette</a>], and state of the art non-autoregressive machine translation methods [<a href="https://arxiv.org/abs/2004.07437">Imputer MT</a>].
+                <br> <br> During my undergrad, I interned at MILA and worked on analysing sample complexity of learning algorithms for grounded language learning [<a href="https://arxiv.org/abs/1810.08272">BabyAI</a>].
               </p>
             </td>
           </tr>
         </tbody></table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:25%;vertical-align:middle"><heading>Highlights</heading></td></tr>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/imagen_video.gif" alt="Imagen" width="160" height="160" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://imagen.research.google/video" id="imagen_website">
+                <papertitle>Imagen Video: High Definition Video Generation with Diffusion Models</papertitle>
+              </a>
+              <br>
+              <a href="http://www.jonathanho.me/">Jonathan Ho*</a>, <a href="http://williamchan.ca/">William Chan*</a>, <strong>Chitwan Saharia*</strong>, <a href="https://jaywhang.com/">Jay Whang*</a>, Ruiqi Gao, Alexey Gritsenko, Diederik P. Kingma, Ben Poole, <a href="https://norouzi.github.io/"> Mohammad Norouzi</a>, <a href="https://www.cs.toronto.edu/~fleet/"> David J. Fleet </a>, <a href="https://research.google/people/106222/"> Tim Salimans*</a>
+              <br>
+              <em>Pre-print</em>
+              <br>
+               <a href="https://arxiv.org/abs/2210.02303">arXiv</a> / <a href="https://imagen.research.google/video">Page</a>
+              <p>We present Imagen Video, a text-conditional video generation system based on a cascade of video diffusion models. Given a text prompt, Imagen Video generates high definition videos using a base video generation model and a sequence of interleaved spatial and temporal video super-resolution models.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/imagen_editor.gif" alt="Imagen" width="160" height="160" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://imagen.research.google/editor" id="imagen_editor_website">
+                <papertitle>Imagen Editor and EditBench: Advancing and Evaluating Text-Guided Image Inpainting</papertitle>
+              </a>
+              <br>
+              Su Wang*, <strong>Chitwan Saharia*</strong>, Ceslee Montgomery*, Jordi Pont-Tuset, Shai Noy, Stefano Pellegrini, Yasumasa Onoe, Sarah Laszlo, <a href="https://www.cs.toronto.edu/~fleet/">David J. Fleet</a>, Radu Soricut, Jason Baldridge, <a href="https://norouzi.github.io/"> Mohammad Norouzi</a>, Peter Anderson, <a href="http://williamchan.ca/">William Chan</a>
+              <br>
+              <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2023
+              <br>
+               <a href="https://arxiv.org/abs/2212.06909">arXiv</a> / <a href="https://imagen.research.google/editor">Page</a>
+              <p>We introduce Imagen Editor, a state-of-the-art solution for the task of masked inpainting — i.e., when a user provides text instructions alongside an overlay or “mask” (usually generated within a drawing-type interface) indicating the area of the image they would like to modify.</p>
+            </td>
+          </tr>
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/imagen.jpeg" alt="Imagen" width="160" height="160" style="border-style: none">
@@ -68,7 +109,7 @@
               <br>
               <strong>Chitwan Saharia*</strong>,  <a href="http://williamchan.ca/">William Chan*</a>, <a href="https://research.google/people/SaurabhSaxena/">Saurabh Saxena</a>, Lala Li, <a href="https://jaywhang.com/">Jay Whang</a>, <a href="https://cephaloponderer.com/">Emily Denton</a>, <a href="http://www.cs.utoronto.ca/~kamyar/">Seyed Kamyar Seyed Ghasemipour</a>, <a href="https://research.google/people/BurcuKaragolAyan/">Burcu Karagol Ayan</a>, <a href="https://www.ece.ubc.ca/~saram/">S. Sara Mahdavi</a>, <a href="https://raphagl.com/"> Rapha Gontijo Lopes</a>, <a href="https://research.google/people/106222/"> Tim Salimans</a>, <a href="http://www.jonathanho.me/">Jonathan Ho</a>, <a href="https://www.cs.toronto.edu/~fleet/"> David J. Fleet </a>, <a href="https://norouzi.github.io/"> Mohammad Norouzi*</a>
               <br>
-              <em>Pre-print</em>
+              <em>Neural Information Processing Systems (NeurIPS)</em>, 2022 (Outstanding Paper Award)
               <br>
                <a href="https://arxiv.org/abs/2205.11487">arXiv</a> / <a href="https://imagen.research.google/">Page</a>
               <p>We present Imagen, a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding. Imagen builds on the power of large transformer language models in understanding text and hinges on the strength of diffusion models in high-fidelity image generation.</p>
@@ -150,7 +191,7 @@
               models to efficiently generate 1024x1024 unconditional faces, and 256x256 class conditional natural images.</p>
             </td>
           </tr>
-          
+
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/imputer_mt_image.png" alt="Imputer Architecture for Machine Translation" width="160" height="160" style="border-style: none">
@@ -182,7 +223,7 @@
               <br>
               <em>International Conference on Machine Learning (ICML)</em>, 2020
               <br>
-               <a href="https://arxiv.org/abs/2002.08926">arXiv</a> / <a href="https://slideslive.com/38927715/imputer-sequence-modelling-via-imputation-and-dynamic-programming?ref=speaker-30688-latest">Talk</a> / <a href="https://www.youtube.com/watch?v=AU30czb4iQA">Media</a> 
+               <a href="https://arxiv.org/abs/2002.08926">arXiv</a> / <a href="https://slideslive.com/38927715/imputer-sequence-modelling-via-imputation-and-dynamic-programming?ref=speaker-30688-latest">Talk</a> / <a href="https://www.youtube.com/watch?v=AU30czb4iQA">Media</a>
               <p>We introduce a semi-autoregressive model for speech recognition that uses a tractable dynamic programming algorithm to approximately marginalize over all latent alignments and generation orders.</p>
             </td>
           </tr>
@@ -224,7 +265,7 @@
               <p>We study the impact audio and visual modalities in learning models for Video Captioning.</p>
             </td>
           </tr>
-          
+
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/babyai_image.png" alt="Example BabyAI Level" width="160" height="160" style="border-style: none">
@@ -243,8 +284,34 @@
             </td>
           </tr>
 
-          <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr><td style="padding:20px;width:100%;vertical-align:middle"><heading>Talks / Interviews</heading></td></tr>
+            <tr>
+              <td style="padding:0px 0px 0px 20px;width:100%;vertical-align:middle">
+                <a href="https://www.youtube.com/watch?v=gySsMreGK2o" id="imagen_interview">Imagining with Imagen</a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0px 0px 0px 20px;width:100%;vertical-align:middle">
+                <a href="https://www.youtube.com/watch?v=3zTkTqZMn4M" id="diffusion_talk">Talk on Diffusion Models @ CS391L, UT Austin</a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0px 0px 0px 20px;width:100%;vertical-align:middle">
+                <a href="https://youtu.be/A1yFak2TYTQ?t=27686" id="imagen_talk">Talk on Imagen (AI4CC @ NeurIPS, 2022)</a>
+              </td>
+            </tr>
+            <!-- <tr>
+              <td style="padding:0px 0px 0px 20px;width:100%;vertical-align:middle">
+                <a href="https://www.youtube.com/watch?v=eZ9iZCXVeC8" id="podcast">Podcast with Nivedan </a>
+              </td>
+            </tr> -->
+            <td style="padding:20px">
               <br>
               <p style="text-align:left;font-size:small;">
                 Huge thanks to <a href="https://jonbarron.info/"> Jon Barron </a> for the template!
-          </p></td>
+            </p></td>
+            </tbody>
+            </table>
+
+
